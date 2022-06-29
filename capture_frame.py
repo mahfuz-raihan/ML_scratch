@@ -4,7 +4,7 @@ import numpy as np
 import cv2 as cv
 
 # open the inbuilt camera of laptop to capture video
-cap = cv.VideoCapture('football.mp4')
+cap = cv.VideoCapture('C:\Users\Fuzi\Desktop\football1.mp4')
 i = 0
 while (cap.isOpened()):
     ret, frame = cap.read()
@@ -13,7 +13,7 @@ while (cap.isOpened()):
         break
     
     # save the image frame by frame
-    cv.imwrite('frame'+str(i)+'.jpg', frame)
+    cv.imwrite('C:\Users\Fuzi\Desktop\sportsdataset\frame'+str(i)+'.jpg', frame)
     i += 1
     
 cap.release()
