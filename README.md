@@ -1,8 +1,6 @@
 # ML_scratch
 ML/DL learning session and execution.
 
-
-
 ## **How to use this repository**
 
 Dear collaborator,
